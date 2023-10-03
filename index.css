@@ -1,0 +1,77 @@
+/* Reset beberapa elemen default browser */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Memberikan warna latar belakang dan font default */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Styling untuk navigasi */
+nav {
+    background-color: #333;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #f5f5f5;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk header */
+header {
+    background-color: #4CAF50;
+    padding: 2em 0;
+    margin-bottom: 2em;
+}
+
+header img {
+    margin-bottom: 1em;
+}
+
+header h1 {
+    color: #f5f5f5;
+}
+
+/* Styling untuk article */
+article h2 {
+    margin-bottom: 1em;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 1em 0;
+}
